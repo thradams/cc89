@@ -57,12 +57,14 @@ cc89 a.c [b.c ...] [-o output] [-target=win64|linux-x64|macos-arm64] [-l lib] [-
 - Not supported: SEH (`__try/__except`) and x87 `long double` on Linux (an error if used in code;
   declarations in headers are fine).
 
-## Build and tests
+## Build
 
 ```
-build.bat                (Windows)    sh build.sh             (Linux)
-sh tests/run.sh          (Windows; with cdb installed, also tests the .pdb)    sh tests/linux/run.sh   (Linux or WSL)
+cl build.c && build                  (Windows)
+cc build.c -o build && ./build       (Linux, macOS)
 ```
+
+`build debug` builds without optimization and with debug info.
 
 sqlite3 + shell, passed through cake and compiled by cc89, give the same output as the gcc
 build, on both Windows and Linux. cake compiled by cc89 (Windows) produces
