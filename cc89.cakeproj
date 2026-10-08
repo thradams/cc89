@@ -1,0 +1,612 @@
+{
+  "name": "cc89",
+  "compile": {
+    "target": "msvc-win-x64",
+    "configuration": "debug",
+    "targets": {
+      "clang-macos-arm64": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        }
+      },
+      "gcc-linux-arm32": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        }
+      },
+      "gcc-linux-arm64": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        }
+      },
+      "gcc-linux-x64": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        }
+      },
+      "msvc-win-x64": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+              "arguments": "/nologo /Zi /Od $(CakeOutput) $(IncludeDirs) /Fe$(TargetPath) /link /LIBPATH:\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64\" /LIBPATH:\"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\ucrt\\x64\" /LIBPATH:\"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\um\\x64\" user32.lib gdi32.lib shell32.lib advapi32.lib msimg32.lib",
+              "directory": "$(TargetDir)"
+            }
+          },
+          "include_dirs": [
+            "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt"
+          ],
+          "debugger": {
+            "command": "$(TargetPath)",
+            "arguments": "",
+            "directory": "$(TargetDir)"
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+              "arguments": "/nologo /O2 /DNDEBUG $(CakeOutput) $(IncludeDirs) /Fe$(TargetPath) /link /LIBPATH:\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64\" /LIBPATH:\"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\ucrt\\x64\" /LIBPATH:\"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\um\\x64\" user32.lib gdi32.lib shell32.lib advapi32.lib msimg32.lib",
+              "directory": "$(TargetDir)"
+            }
+          },
+          "include_dirs": [
+            "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt"
+          ],
+          "debugger": {
+            "command": "$(TargetPath)",
+            "arguments": "",
+            "directory": "$(TargetDir)"
+          }
+        }
+      },
+      "msvc-win-x86": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x86\\cl.exe",
+              "arguments": "/nologo /Zi /Od $(CakeOutput) $(IncludeDirs) /Fe$(TargetPath) /link /LIBPATH:\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x86\" /LIBPATH:\"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\ucrt\\x86\" /LIBPATH:\"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\um\\x86\" user32.lib gdi32.lib shell32.lib advapi32.lib msimg32.lib",
+              "directory": "$(TargetDir)"
+            }
+          },
+          "include_dirs": [
+            "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt"
+          ],
+          "debugger": {
+            "command": "$(TargetPath)",
+            "arguments": "",
+            "directory": "$(TargetDir)"
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x86\\cl.exe",
+              "arguments": "/nologo /O2 /DNDEBUG $(CakeOutput) $(IncludeDirs) /Fe$(TargetPath) /link /LIBPATH:\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x86\" /LIBPATH:\"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\ucrt\\x86\" /LIBPATH:\"C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\um\\x86\" user32.lib gdi32.lib shell32.lib advapi32.lib msimg32.lib",
+              "directory": "$(TargetDir)"
+            }
+          },
+          "include_dirs": [
+            "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt"
+          ],
+          "debugger": {
+            "command": "$(TargetPath)",
+            "arguments": "",
+            "directory": "$(TargetDir)"
+          }
+        }
+      },
+      "tcc-linux-x64": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        }
+      },
+      "tcc-macos-arm64": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            }
+          },
+          "include_dirs": [],
+          "debugger": {
+            "command": "",
+            "arguments": "",
+            "directory": ""
+          }
+        }
+      },
+      "tcc-win-x64": {
+        "debug": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "tcc",
+              "arguments": "$(CakeOutput) $(IncludeDirs) -o $(TargetPath)",
+              "directory": "$(TargetDir)"
+            }
+          },
+          "include_dirs": [
+            "c:/tcc/win32/include",
+            "c:/tcc/win32/include/winapi"
+          ],
+          "debugger": {
+            "command": "$(TargetPath)",
+            "arguments": "",
+            "directory": "$(TargetDir)"
+          }
+        },
+        "release": {
+          "options": "",
+          "output": "",
+          "style": "",
+          "diagnostic_format": "ide",
+          "line_directives": true,
+          "fanalyzer": false,
+          "const_literal": false,
+          "wall": false,
+          "use_cake_headers": false,
+          "build": {
+            "pre_build": {
+              "command": "",
+              "arguments": "",
+              "directory": ""
+            },
+            "post_build": {
+              "command": "tcc",
+              "arguments": "-DNDEBUG $(CakeOutput) $(IncludeDirs) -o $(TargetPath)",
+              "directory": "$(TargetDir)"
+            }
+          },
+          "include_dirs": [
+            "c:/tcc/win32/include",
+            "c:/tcc/win32/include/winapi"
+          ],
+          "debugger": {
+            "command": "$(TargetPath)",
+            "arguments": "",
+            "directory": "$(TargetDir)"
+          }
+        }
+      }
+    }
+  },
+  "files": [
+    "abi_sysv.c",
+    "abi_win64.c",
+    "asm.c",
+    "asm.h",
+    "asm_arm64.c",
+    "asm_x64.c",
+    "backend.h",
+    "backend_arm64.c",
+    "backend_data.c",
+    "backend_x64.c",
+    "cc89.h",
+    "codeview.c",
+    "codeview.h",
+    "dwarf.c",
+    "dwarf.h",
+    "elf.c",
+    "lexer.c",
+    "macho.c",
+    "main.c",
+    "object.h",
+    "parser.c",
+    "pdb.c",
+    "pe.c",
+    "target.c",
+    "type.c",
+    "type.h",
+    "x64.h"
+  ]
+}

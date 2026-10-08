@@ -1,0 +1,6 @@
+*.exe
+*.s
+*.out
+build
+cc89
+*.map
