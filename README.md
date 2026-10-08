@@ -83,8 +83,7 @@ output identical to the original cake.
   libraries (flat lookup);
 - ad-hoc signature (`LC_CODE_SIGNATURE`): a CodeDirectory with the SHA-256 of each 4 KB page.
 
-Not yet tested on a Mac: `otool -l`, `codesign -v` and running `tests/linux/abi.c` (generated with
-`cake -target=clang-macos-arm64`) are the next step.
+Not yet tested on a Mac: `otool -l` and `codesign -v` are the next step.
 
 `-g` on macOS: the executable carries an `LC_UUID`, and the DWARF (`__debug_info`, `__debug_abbrev`,
 `__debug_line`, `__debug_aranges`) goes to `out.dSYM/Contents/Resources/DWARF/out`, an `MH_DSYM`
